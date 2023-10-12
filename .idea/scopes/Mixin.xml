@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Mixin" pattern="lib:org.spongepowered.asm..*" />
+</component>

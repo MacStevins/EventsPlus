@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "eventsplus",
+	"version": "${version}",
+	"name": "Events+",
+	"description": "An API that adds Events/Callbacks that Fabric/Quilt doesn't have.\nThis API is built on Fabric, if there are Events that were implemented by Quilt, I can't use them.",
+	"authors": [ "MacStevins" ],
+	"license": "WTFPL",
+	"environment": "*",
+	"mixins": [
+		"eventsplus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"fabric": "*",
+		"minecraft": "${minecraft_version}"
+	},
+	"custom": {
+		"modmenu": {
+			"badges": [ "library" ]
+		}
+	}
+}
