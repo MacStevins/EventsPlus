@@ -5,6 +5,10 @@
 	"name": "Events+",
 	"description": "An API that adds Events/Callbacks that Fabric/Quilt doesn't have.\nThis API is built on Fabric, if there are Events that were implemented by Quilt, I can't use them.",
 	"authors": [ "MacStevins" ],
+	"contact": {
+		"homepage": "https://macstevins.github.io",
+		"sources": "https://github.com/MacStevins/EventsPlus"
+	},
 	"license": "WTFPL",
 	"environment": "*",
 	"mixins": [
